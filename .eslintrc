@@ -1,0 +1,25 @@
+{
+   "extends": ["react-app", "prettier"],
+   "rules": {
+      "no-console": "warn",
+      "no-confusing-arrow": ["error", { "allowParens": true }],
+      "no-mixed-operators": "off",
+      "no-tabs": ["error", { "allowIndentationTabs": true }],
+
+      "lines-around-comment": [
+         "error"
+         /* {
+            "beforeBlockComment": false,
+            "afterBlockComment": false,
+            "beforeLineComment": false,
+            "afterLineComment": false,
+            "allowBlockStart": false,
+            "allowBlockEnd": false,
+            "allowObjectStart": false,
+            "allowObjectEnd": false,
+            "allowArrayStart": false,
+            "allowArrayEnd": false
+         } */
+      ]
+   }
+}

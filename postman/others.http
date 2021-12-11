@@ -1,0 +1,2 @@
+GET {{hostname}}/auth-endpoint
+Authorization:{{apiKey}}

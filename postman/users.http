@@ -1,0 +1,28 @@
+GET {{hostname}}/users
+###
+GET {{hostname}}/users/61b4b73f43094aa888d863d9
+###
+
+DELETE {{hostname}}/users
+###
+DELETE {{hostname}}/users/61b4b73f43094aa888d863d9
+###
+
+POST {{hostname}}/users
+Content-Type: application/json
+
+{
+   "uname": "c@gmail.com",
+   "uemail": "c@gmail.com",
+   "umobile": "082127734627"
+}
+###
+
+put {{hostname}}/users/61b4978bd5c0dc0fa531f444
+Content-Type: application/json
+
+{
+   "uname": "a@gmail.com",
+   "uemail": "a@gmail.com",
+   "umobile": "111"
+}
